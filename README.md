@@ -172,7 +172,8 @@ This repository is created as part of a Data Engineering learning journey coveri
 
 ---
 
-
+app/logs/*
+!app/logs/.gitkeep
 
 <!-- ===== -->
 - Git Workflow Practice
