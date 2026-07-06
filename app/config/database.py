@@ -5,17 +5,18 @@ from app.config.settings import (
     DB_PORT,
     DB_NAME,
     DB_USER,
-    DB_PASSWORD
+    DB_PASSWORD,
 )
 
 
-DATABASE_URL = (
-    f"postgresql://"
-    f"{DB_USER}:"
-    f"{DB_PASSWORD}@"
-    f"{DB_HOST}:"
-    f"{DB_PORT}/"
-    f"{DB_NAME}"
-)
+def get_engine():
+    database_url = (
+        f"postgresql://"
+        f"{DB_USER}:"
+        f"{DB_PASSWORD}@"
+        f"{DB_HOST}:"
+        f"{DB_PORT}/"
+        f"{DB_NAME}"
+    )
 
-engine = create_engine(DATABASE_URL, echo=False) 
+    return create_engine(database_url, echo=False)

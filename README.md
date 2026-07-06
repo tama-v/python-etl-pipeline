@@ -172,7 +172,8 @@ This repository is created as part of a Data Engineering learning journey coveri
 
 ---
 
-
+app/logs/*
+!app/logs/.gitkeep
 
 <!-- ===== -->
 - Git Workflow Practice
@@ -187,8 +188,10 @@ This line comes from main branch.
 =======
 ## Conflict Demo
 
-This line comes from feature branch.
->>>>>>> feature/conflict-demo
+## Pull Request Practice
+
+Learning GitHub Pull Requests.
+
 
 # 📜 License
 
