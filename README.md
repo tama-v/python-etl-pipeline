@@ -180,8 +180,9 @@ This repository is created as part of a Data Engineering learning journey coveri
 ## Docker Learning
 
 This branch is used to practice Git branching.
+## Conflict Demo
 
-Branch Feature Conflict Demo
+This line comes from main branch.
 
 # 📜 License
 
