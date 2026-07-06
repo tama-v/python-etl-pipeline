@@ -187,8 +187,10 @@ This line comes from main branch.
 =======
 ## Conflict Demo
 
-This line comes from feature branch.
->>>>>>> feature/conflict-demo
+## Pull Request Practice
+
+Learning GitHub Pull Requests.
+
 
 # 📜 License
 
