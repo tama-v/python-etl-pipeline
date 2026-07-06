@@ -182,7 +182,13 @@ This repository is created as part of a Data Engineering learning journey coveri
 This branch is used to practice Git branching.
 ## Conflict Demo
 
+<<<<<<< HEAD
 This line comes from main branch.
+=======
+## Conflict Demo
+
+This line comes from feature branch.
+>>>>>>> feature/conflict-demo
 
 # 📜 License
 
